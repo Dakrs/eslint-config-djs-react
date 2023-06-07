@@ -34,7 +34,8 @@ module.exports = {
       'react/jsx-no-useless-fragment': 'error',
       'react/jsx-sort-props': 'error',
       'react/jsx-tag-spacing': ['error', { 'beforeSelfClosing': 'always', 'closingSlash': 'never' }],
-      'react/react-in-jsx-scope': 'off'
+      'react/react-in-jsx-scope': 'off',
+      'react/self-closing-comp': ['error', { 'component': true, "html": true }]
     }
 };
   
